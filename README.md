@@ -4,12 +4,11 @@ Go clone of [ed(1)](https://man.openbsd.org/ed.1), the classic Unix line editor
 
 ## Build
 
-`build.sh` builds into `build/`. No make, no build system.
+`build.sh` builds into `build/`.
 
 ```sh
-./build.sh                  # debug, build/edo
-./build.sh release          # optimized and stripped
-./build.sh run -- poem.txt  # build and run in one step
+./build.sh                  # build/edo
+./build/edo poem.txt        # run what you built
 ./build.sh test
 ```
 
